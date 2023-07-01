@@ -8,6 +8,7 @@ import SectionSeven from "./components/SectionSeven";
 import SectionSix from "./components/SectionSix";
 import SectionThree from "./components/SectionThree";
 import SectionTwo from "./components/SectionTwo";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <SectionFive />
       <SectionSix />
       <SectionSeven />
+      <Footer/>
     </React.Fragment>
   )
 }

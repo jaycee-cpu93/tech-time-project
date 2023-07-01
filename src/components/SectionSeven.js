@@ -68,15 +68,15 @@ const SectionSeven = () => {
         {faqData.map((item, id) => (
           <div key={item.id}>
             <div className="question">
-              {showModal === id ? <h5 onClick={() => clickHandler(id)} >
-                {item.question}
-              </h5> : <p style={{fontSize: "1.2rem", fontWeight: "600"}}> {item.question}</p>}
+              {showModal === id ? (
+                <h5 onClick={() => clickHandler(id)}>{item.question}</h5>
+              ) : (
+                <p style={{ fontSize: "1.2rem", fontWeight: "600" }}>
+                  {item.question}
+                </p>
+              )}
               <span onClick={() => clickHandler(id)}>
-                {showModal === id ? (
-                  <HiMinus />
-                ) : (
-                  <FiPlus />
-                )}
+                {showModal === id ? <HiMinus color="#004DB3" /> : <FiPlus />}
               </span>
             </div>
             <div>
