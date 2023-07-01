@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div className='links'>
           <h4>Subscribe Us</h4>
-            <input type='text' />
+            <input type='text' className='input_' />
             <button>Send Message</button>
         </div>
     </footer>
