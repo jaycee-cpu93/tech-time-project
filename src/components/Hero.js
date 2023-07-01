@@ -1,6 +1,5 @@
 import React from "react";
 import '../styles/style.css';
-import {BsArrowUpRight} from 'react-icons/bs';
 import {CgShapeZigzag} from 'react-icons/cg';
 import frameOne from "../assets/Frame-95.png";
 import frameTwo from "../assets/Frame-96.png";
@@ -30,7 +29,7 @@ const Hero = () => {
             build your future with our quality education. the best and largest
             all-in-one online tutoring platform in the world
             </p>
-            <button className="get-started-btn">Get Started Now <BsArrowUpRight color="white" size={16} /></button>
+            <button className="get-started-btn">Get Started Now</button>
             <button className="_btn">Enroll now</button>
             <div className="img-previews">
                 <img src={frameOne} alt="potrait of a lady"  />
